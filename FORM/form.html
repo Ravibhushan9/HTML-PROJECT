@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi Form</title>
+    <style>
+        form{
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p><b>A Simple html Form</b></p>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Personnal Information</legend>
+
+                <label for="name"> Name:</label>
+                <input type="text" name="name " id="name" placeholder="enter your name"><br><br>
+
+                <label for="email id">Email ID:</label>
+                <input type="text" name="email id " id="email id" placeholder="enter your email id"><br><br>
+
+                <label for="phone No">Phone No:</label>
+                <input type="text" name="phone No " id="phone No" placeholder="123-456-6789"><br><br>
+
+                <label for="date of birth ">Date of Birth:</label>
+                <input type="date" name="date  " id="date of birth"><br><br>
+
+                <label> Gender:</label><br>
+                <label for="male">
+                    <input type="radio" id="male" value="male" name="gender">Male
+                </label>
+                <label for="female">
+                    <input type="radio" id="female" value="female" name="gender">Female</label>
+                <label for="Others">
+                    <input type="radio" id="Others" value="Others" name="gender">Others</label>
+                <br><br>
+                <label> Marital Status:</label><br>
+
+                <label for="single">
+                    <input type="radio" id="single" value="singel" name="status">Single
+                </label>
+                <label for="married">
+                    <input type="radio" id="married" value="Married " name="status">Married
+                </label>
+                <label for="divorced">
+                    <input type="radio" id="divorced" value=" divorced" name="status">Divorced</label>
+                <br><br>
+
+                <label>Hobbies:</label><br>
+                <label for="Sports">
+                    <input type="checkbox" id="Sports" value="Sports" name="Hobbies">Sports
+                </label><br>
+                <label for="Music">
+                    <input type="checkbox" id="Music" value="Music" name="Hobbies">Music
+                </label><br>
+                <label for="Traveling">
+                    <input type="checkbox" id="Traveling" value="Traveling" name="Hobbies">Traveling
+                </label><br>
+                <label for="Reading Books">
+                    <input type="checkbox" id="Reading Books" value="Reading Books" name="Hobbies">Books Reading
+                </label><br><br>
+                <label for="country">Country :</label>
+                <select name="country " id="country">
+                    <option value="India">India</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Kanada">Kanada</option>
+                    <option value="Russia">Russia</option>
+                </select>
+
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Adress
+                </legend>
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street"><br><br>
+                <label for="City">City:</label>
+                <input type="text" id="City" name="City"><br><br>
+                <label for="State">State:</label>
+                <input type="text" id="State" name="State"><br><br>
+                <label for="Zip Code">Zip Code:</label>
+                <input type="text" id="Zip Code" name="Zip Code"><br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Other Information</legend><br>
+                <label for="file">Choose File:</label>
+                <input type="file" id="file"><br><br>
+                <label for="comments">Comments:</label><br>
+                <textarea name="comments" id="commets" placeholder="Enter your comments" rows="5" cols="35"></textarea>
+                <label for="condition"></label><br><br>
+                <input type="checkbox" id="condition" value="condition">I aree terms and condition
+            </fieldset>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
